@@ -1,4 +1,4 @@
-Begleitet mich auf dem weg zu meiner ersten Webside in HTML!!
-Mit diesem Link könnt ihr die ladezeiten überspringen: 
+Dies ist Die Offizielle Webside für den ALS-SMP!
+Schlagt gerne verbesserungen vor!
 https://alstv.github.io/?refresh=1
 
