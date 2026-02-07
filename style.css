@@ -25,7 +25,8 @@ header a  {
 }
 
 header a:hover {
-    color: #5e27f59c
+    color: #5e27f59c;
+    transform: translateY(-2px);
     }
 
 
@@ -43,12 +44,13 @@ header a:hover {
  
  .con {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
      font-family: 'Poppins', sans-serif; font-weight: 600;
-     background-color: #3a57c4;
+     background-color: #3a58c4b6;
      padding: auto;
-     border-radius: 8px;
-     margin: 50px 20px;
+     border-radius: 20px;
+     margin: 0px 20px;
+     
  }
 
  .btn {
@@ -64,5 +66,5 @@ header a:hover {
 
 .btn:hover {
     background-color: #3a57c4;
-    transform: translateY(-2px);
+    transform: translateY(-5px);
 }
