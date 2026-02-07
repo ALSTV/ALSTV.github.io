@@ -64,7 +64,7 @@ header a:hover {
 }
 
 /* Tablet */
-@media (min-width: 2px) and (max-width: 1023px) { 
+@media (min-width: 800px) and (max-width: 1023px) { 
     .con {
      margin: 0 100px;
     }
