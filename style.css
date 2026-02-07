@@ -1,6 +1,8 @@
+/*Allgemeine Formatierung*/
 body {
         margin: 0;
     }
+    /*Navileiste*/
 header {
     height: 80px;
     box-shadow: 0px 5px 13px 2px #C2C2C2;
@@ -9,39 +11,39 @@ header {
     align-items: center;
     padding: 0px 20px;
 }
-
+    /*Logo und Titel in der Navileiste*/
 .left {
     display: flex;
     align-items: center;
     gap: 15px
 }
 
-
+    /*Links in der Navileiste*/
 header a  {
     margin-right: 25px;
     text-decoration: none !important;
     color: #737373;
     
 }
-
+    /*Hover Effekt für die Links in der Navileiste*/
 header a:hover {
     color: #5e27f59c;
     transform: translateY(-2px);
     }
 
-
+    /*Uberschrift*/
 .uberschrift {
     text-align: center;
     margin-top: 50px;
      font-family: 'Poppins', sans-serif; font-weight: 600;
     
  }
-
+    /*Links in der Uberschrift*/
  .uberschrift a {
     text-decoration: none !important;
     color: #000000;
     }
- 
+    /*Standart für Container*/
  .con {
     text-align: center;
     margin-top: 60px;
@@ -52,7 +54,7 @@ header a:hover {
      margin: 0px 20px;
      
  }
-
+    /*Standart für Buttons*/
  .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -63,7 +65,7 @@ header a:hover {
     font-weight: 600;
     transition: 0.2s ease;
 }
-
+    /*Hover Effekt für Buttons*/
 .btn:hover {
     background-color: #3a57c4;
     transform: translateY(-5px);
