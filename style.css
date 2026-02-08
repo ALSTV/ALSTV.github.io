@@ -82,6 +82,7 @@ header a:hover {
     border-radius: 8px;
     font-weight: 600;
     transition: 0.2s ease;
+    margin-top: 20px;
 }
     /*Hover Effekt für Buttons*/
 .btn:hover {
