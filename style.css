@@ -54,7 +54,10 @@ header a:hover {
     border-radius: 20px;
     margin: 0 20px;
     margin-bottom: 70px;
+    padding-bottom: 10px;
 }
+
+.con-big img { width: 300px; /* oder was du brauchst */ height: auto; }
 
 /* Desktop */
 @media (min-width: 1024px) { 
