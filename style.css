@@ -94,22 +94,30 @@ header a:hover {
     margin-bottom: 15px;
 }
 
-.team-member {
+/* Jeder Member untereinander */
+#team .team-member {
     display: flex;
+    flex-direction: row; /* Bild links, Text rechts */
     align-items: center;
-    justify-content: center; /* sorgt dafür, dass Bild + Text in der Mitte stehen */
-    gap: 10px;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
 }
 
-.team-member p {
+/* Textblock */
+#team .team-member .info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Schriftgrößen */
+.name {
+    font-size: 2rem;
     margin: 0;
-    font-size: 1.2rem;
 }
 
 .textklein {
-    font-size: 0.8rem !important;
-}
-
-.name {
-    font-size: 2rem !important;
+    font-size: 0.8rem;
+    margin: 0;
 }
