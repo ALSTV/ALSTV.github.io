@@ -64,11 +64,13 @@ header a:hover {
 }
 
 /* Tablet */
-@media (min-width: 800px) and (max-width: 1023px) { 
+@media (min-width: 500px) and (max-width: 1400px) { 
     .con {
-     margin: 0 100px;
+     margin: 0 80px;
     }
 }
+
+
 
     /*Standart für Buttons*/
  .btn {
@@ -87,6 +89,27 @@ header a:hover {
     transform: translateY(-5px);
 }
 
-.teambild {
-    
+.team-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* sorgt dafür, dass Bild + Text in der Mitte stehen */
+    gap: 10px;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.textklein {
+    font-size: 0.8rem !important;
+}
+
+.name {
+    font-size: 2rem !important;
 }
