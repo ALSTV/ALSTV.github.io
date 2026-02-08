@@ -89,20 +89,20 @@ header a:hover {
     transform: translateY(-5px);
 }
 
-.team-title {
-    text-align: center;
-    margin-bottom: 15px;
+#team {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px; /* Abstand zur linken Containerwand */
+    margin-top: 20px;
 }
 
-/* Jeder Member untereinander */
 #team .team-member {
     display: flex;
-    flex-direction: row; /* Bild links, Text rechts */
+    flex-direction: row;
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
-    padding-left: 40px;
-    padding-bottom: 10px;
 }
 
 /* Textblock */
@@ -111,7 +111,6 @@ header a:hover {
     flex-direction: column;
 }
 
-/* Schriftgrößen */
 .name {
     font-size: 2rem;
     margin: 0;
@@ -120,4 +119,18 @@ header a:hover {
 .textklein {
     font-size: 0.8rem;
     margin: 0;
+}
+
+/* --- Handy-Optimierung --- */
+@media (max-width: 600px) {
+    #team .team-member {
+        flex-direction: column; /* Kopf über Text */
+        align-items: center;    /* alles schön mittig */
+        text-align: center;
+    }
+
+    #team {
+        align-items: center; /* Teamliste mittig */
+        padding-left: 0;     /* auf Handy kein unnötiger Rand */
+    }
 }
