@@ -1,9 +1,8 @@
 /*Allgemeine Formatierung*/
 body {
         margin: 0;
-        background:
-    radial-gradient(circle at top, rgba(76, 175, 239, 0.25), transparent 55%),
-    linear-gradient(145deg, #0b0d14, #05060a);
+     background: radial-gradient(circle at top, #15192b 0, #05060a 55%);
+
     color: #f5f7ff;
     
 
@@ -60,8 +59,8 @@ header a:hover {
     border-radius: 20px;
    margin-bottom: 20px !important;
 }
-
-.con-big img { width: 300px; /* oder was du brauchst */ height: auto; }
+    /*Container für Fotos*/
+.con-big img { width: 300px; height: auto; }
 
 /* Desktop */ @media (min-width: 1024px) { 
     .con {
@@ -89,6 +88,8 @@ header a:hover {
     font-weight: 600;
     transition: 0.2s ease;
     margin-top: 20px;
+    box-shadow: 0 12px 30px rgba(76, 175, 239, 0.35);
+
 }
     /*Hover Effekt für Buttons*/
 .btn:hover {
@@ -142,3 +143,4 @@ header a:hover {
     }
 
 }
+
