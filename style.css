@@ -42,7 +42,7 @@ header a  {
 }
     /*Hover Effekt für die Links in der Navileiste*/
 header a:hover {
-    color: #00ccff;
+    color: #cc00ff;
     transform: translateY(-2px);
     }
 
