@@ -1,11 +1,17 @@
 /*Allgemeine Formatierung*/
 body {
         margin: 0;
+        background:
+    radial-gradient(circle at top, rgba(76, 175, 239, 0.25), transparent 55%),
+    linear-gradient(145deg, #0b0d14, #05060a);
+    color: #f5f7ff;
+    
+
     }
     /*Navileiste*/
 header {
     height: 80px;
-    box-shadow: 0px 5px 13px 2px #C2C2C2;
+    box-shadow: 0px 5px 13px 2px rgba(0, 0, 0, 0.45);
     display : flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +28,7 @@ header {
 header a  {
     margin-right: 25px;
     text-decoration: none !important;
-    color: #737373;
+    color: #acaaaa;
     
 }
     /*Hover Effekt für die Links in der Navileiste*/
@@ -49,12 +55,10 @@ header a:hover {
     margin-top: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    background-color: #3a58c4b6;
-    padding: 0;
+    background-color: #845ef576;
+    padding: 4;
     border-radius: 20px;
-    margin: 0 20px;
-    margin-bottom: 70px;
-    padding-bottom: 10px;
+   margin-bottom: 20px !important;
 }
 
 .con-big img { width: 300px; /* oder was du brauchst */ height: auto; }
