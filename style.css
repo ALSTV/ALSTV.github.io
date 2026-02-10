@@ -4,6 +4,7 @@ body {
      background: radial-gradient(circle at top, #15192b 0, #05060a 55%);
 
     color: #f5f7ff;
+    text-decoration: none !important;
     
 
     }
@@ -92,7 +93,6 @@ header a:hover {
     padding: 12px 24px;
     background-color: #4a6cf7;
     color: white;
-    text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
     transition: 0.2s ease;
