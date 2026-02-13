@@ -21,7 +21,7 @@ header {
 /* Linke Seite (Logo + Titel) */
 .left {
     display: flex;
-    align-items: center; /* du hattest "centers" → Tippfehler */
+    align-items: center;
     gap: 15px;
 }
 
@@ -42,7 +42,7 @@ header a  {
 }
     /*Hover Effekt für die Links in der Navileiste*/
 header a:hover {
-    color: #cc00ff;
+    color: #aa15cf;
     transform: translateY(-2px);
     }
 

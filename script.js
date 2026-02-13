@@ -1,3 +1,4 @@
+/* IP Copy Button Script */
 const copyBtn = document.getElementById("copy-ip");
 
 copyBtn.addEventListener("click", () => {
