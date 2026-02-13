@@ -21,7 +21,7 @@ header {
 /* Linke Seite (Logo + Titel) */
 .left {
     display: flex;
-    align-items: center; /* du hattest "centers" → Tippfehler */
+    align-items: center;
     gap: 15px;
 }
 
