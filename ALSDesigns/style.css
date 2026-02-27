@@ -3,6 +3,16 @@ body {
     color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    text-decoration: none !important;
+    margin-right: 50px;
+    margin-left: 50px;
+
+
+
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at 20% 20%, #1a1a2e, #000000 70%);
+
 }
 
 .title {
@@ -17,3 +27,40 @@ body {
     font-size: 1.5em;
     margin-bottom: 30px;
 }
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.projects {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    
+}
+
+a {
+    color: #ff6600;
+    display: inline-block;
+    padding: 7px;
+    transition: color 0.3s ease, transform 1s ease;
+}
+
+a:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    color: aqua;
+}
+
+li {
+    font-size: 20px;
+  
+}
+
+
+
+
