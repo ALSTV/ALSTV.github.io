@@ -1,4 +1,4 @@
-Dies ist Die Offizielle Webside für den Bekloppten-SMP und sonsige Projekte!
+Dies ist Die Offizielle Webside für projekte von "Bekloppten Designs"
 Schlagt gerne verbesserungen vor!
 https://alstv.github.io/?refresh=1
 
